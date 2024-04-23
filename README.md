@@ -2,7 +2,9 @@
 
 // Change DB name in /lib/database/mongoose
 
-// Make a .env.local file in root for the following values: 
+// Make your mongodb access from anywhere
+
+// Make a .env.local file in root for the following values:
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -15,4 +17,3 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 MONGODB_URL=
 
 WEBHOOK_SECRET=
-
